@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <title>Dinecraft</title>
         {children}
         <div className="relative w-full flex items-center justify-center ">
           <Navbar/>
